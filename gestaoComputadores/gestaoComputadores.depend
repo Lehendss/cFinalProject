@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1671136048 source:/home/edi/Documents/ProjetoC/gestaoComputadores/funcoesGenericas.c
+	<string.h>
+	<stdio.h>
+	"funcoesGenericas.h"
+
+1671136181 source:/home/edi/Documents/ProjetoC/gestaoComputadores/gestaoComputadores.c
+	"funcoesGenericas.h"
+	"gestaoComputadores.h"
+
+1671118034 source:/home/edi/Documents/ProjetoC/gestaoComputadores/gestaoRequisicao.c
+	<stdio.h>
+
+1671118040 source:/home/edi/Documents/ProjetoC/gestaoComputadores/gestaoUtente.c
+	<stdio.h>
+
+1671118139 source:/home/edi/Documents/ProjetoC/gestaoComputadores/main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"gestaoComputadores.h"
+
+1671136226 /home/edi/Documents/ProjetoC/gestaoComputadores/gestaoComputadores.h
+	"gestaoComputadores.h"
+
+1671136106 /home/edi/Documents/ProjetoC/gestaoComputadores/funcoesGenericas.h
+
