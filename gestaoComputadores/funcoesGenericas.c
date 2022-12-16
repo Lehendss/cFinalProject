@@ -129,6 +129,12 @@ tipoData lerData (char msg[])
     return data;
 }
 
+void escreverData(tipoData data)
+{
+    printf("%02d-%02d-%d", data.dia, data.mes, data.ano);
+}
+
+
 
 void limparBuffer(void)
 {

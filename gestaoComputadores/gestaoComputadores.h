@@ -13,13 +13,20 @@
 
 typedef struct
 {
-    int idPortatil;
+    int idComputador;
     int ram;
-    char nome;
+    char nome[MAX_STRING];
 
-}   tipoPortatil;
+}   tipoComputador;
 
-int lerDadosComputadores(char nome[]);
+int lerDadosComputador(char nome[]);
+void mostrarDadosComputador(tipoComputador vetorComputadores[], int quantComputadores);
+int lerQuantidadeComputadores(void);
+int procuraComputadores(tipoComputador vetorComputadores[], int quantComputadores, int numComputador);
+void acrescentaComputadores (tipoComputador vetorComputadores[], int *quantComputadores);
+
+
+
 
 
 #endif // GESTAOCOMPUTADORES_H_INCLUDED

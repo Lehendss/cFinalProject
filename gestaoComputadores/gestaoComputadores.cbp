@@ -31,6 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="funcoesGenericas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funcoesGenericas.h" />
+		<Unit filename="gestaoComputadores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestaoComputadores.h" />
+		<Unit filename="gestaoRequisicao.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestaoRequisicao.h" />
+		<Unit filename="gestaoUtente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gestaoUtente.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
